@@ -1,0 +1,578 @@
+{
+  "metadata": {
+    "utc": "2026-09-17T05:19:43.518989+00:00",
+    "python": "3.11.15",
+    "platform": "Linux-6.17.0-1011-oracle-aarch64-with-glibc2.39",
+    "machine": "aarch64",
+    "source_sha256": "a310e11bacf4ae39b55cb9cec02b942cf14b9010dbe4e5adcb147cf8a8c1e2ec",
+    "clock": "perf_counter_ns",
+    "warmup": 2,
+    "repeats": 7
+  },
+  "scope": "synthetic capped stack, NOT production DFA comparison",
+  "depth_scaling": [
+    {
+      "depth": 1,
+      "chars": 3,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": true,
+      "pda": {
+        "samples_us": [
+          26.041,
+          24.2,
+          23.28,
+          28.92,
+          23.72,
+          23.84,
+          22.321
+        ],
+        "median_us": 23.84,
+        "min_us": 22.321,
+        "max_us": 28.92
+      },
+      "stdlib": {
+        "samples_us": [
+          1.68,
+          1.52,
+          1.56,
+          1.44,
+          1.56,
+          1.68,
+          1.44
+        ],
+        "median_us": 1.56,
+        "min_us": 1.44,
+        "max_us": 1.68
+      }
+    },
+    {
+      "depth": 3,
+      "chars": 7,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": true,
+      "pda": {
+        "samples_us": [
+          52.361,
+          44.52,
+          43.84,
+          56.841,
+          44.2,
+          43.64,
+          47.201
+        ],
+        "median_us": 44.52,
+        "min_us": 43.64,
+        "max_us": 56.841
+      },
+      "stdlib": {
+        "samples_us": [
+          1.6,
+          1.6,
+          1.52,
+          1.52,
+          1.52,
+          1.48,
+          1.48
+        ],
+        "median_us": 1.52,
+        "min_us": 1.48,
+        "max_us": 1.6
+      }
+    },
+    {
+      "depth": 4,
+      "chars": 9,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": false,
+      "pda": {
+        "samples_us": [
+          55.361,
+          55.4,
+          54.6,
+          54.161,
+          56.6,
+          54.76,
+          79.601
+        ],
+        "median_us": 55.361,
+        "min_us": 54.161,
+        "max_us": 79.601
+      },
+      "stdlib": {
+        "samples_us": [
+          1.68,
+          1.6,
+          1.52,
+          1.56,
+          1.52,
+          1.48,
+          1.48
+        ],
+        "median_us": 1.52,
+        "min_us": 1.48,
+        "max_us": 1.68
+      }
+    },
+    {
+      "depth": 8,
+      "chars": 17,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": false,
+      "pda": {
+        "samples_us": [
+          99.92,
+          99.081,
+          98.361,
+          98.36,
+          102.001,
+          101.441,
+          98.4
+        ],
+        "median_us": 99.081,
+        "min_us": 98.36,
+        "max_us": 102.001
+      },
+      "stdlib": {
+        "samples_us": [
+          1.84,
+          1.72,
+          1.72,
+          1.64,
+          1.72,
+          1.72,
+          1.64
+        ],
+        "median_us": 1.72,
+        "min_us": 1.64,
+        "max_us": 1.84
+      }
+    },
+    {
+      "depth": 32,
+      "chars": 65,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": false,
+      "pda": {
+        "samples_us": [
+          395.523,
+          394.803,
+          400.322,
+          390.483,
+          416.163,
+          461.003,
+          395.963
+        ],
+        "median_us": 395.963,
+        "min_us": 390.483,
+        "max_us": 461.003
+      },
+      "stdlib": {
+        "samples_us": [
+          2.76,
+          2.68,
+          2.64,
+          2.64,
+          2.64,
+          19.44,
+          3.64
+        ],
+        "median_us": 2.68,
+        "min_us": 2.64,
+        "max_us": 19.44
+      }
+    },
+    {
+      "depth": 128,
+      "chars": 257,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": false,
+      "pda": {
+        "samples_us": [
+          2034.974,
+          2008.814,
+          2018.894,
+          2005.334,
+          2005.974,
+          2000.054,
+          2019.174
+        ],
+        "median_us": 2008.814,
+        "min_us": 2000.054,
+        "max_us": 2034.974
+      },
+      "stdlib": {
+        "samples_us": [
+          7.52,
+          7.841,
+          7.44,
+          7.32,
+          7.44,
+          7.32,
+          7.32
+        ],
+        "median_us": 7.44,
+        "min_us": 7.32,
+        "max_us": 7.841
+      }
+    },
+    {
+      "depth": 512,
+      "chars": 1025,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": false,
+      "pda": {
+        "samples_us": [
+          15100.865,
+          15033.385,
+          15133.786,
+          15087.305,
+          15128.385,
+          15041.945,
+          15050.505
+        ],
+        "median_us": 15087.305,
+        "min_us": 15033.385,
+        "max_us": 15133.786
+      },
+      "stdlib": {
+        "samples_us": [
+          30.04,
+          29.56,
+          29.561,
+          29.6,
+          29.92,
+          29.52,
+          29.56
+        ],
+        "median_us": 29.561,
+        "min_us": 29.52,
+        "max_us": 30.04
+      }
+    },
+    {
+      "depth": 1024,
+      "chars": 2049,
+      "pda_accepts": true,
+      "synthetic_cap3_accepts": false,
+      "pda": {
+        "samples_us": [
+          51672.56,
+          50516.632,
+          50981.875,
+          50606.353,
+          51275.557,
+          50935.355,
+          50828.235
+        ],
+        "median_us": 50935.355,
+        "min_us": 50516.632,
+        "max_us": 51672.56
+      }
+    }
+  ],
+  "selectivity": [
+    {
+      "state": "value",
+      "prefix": "{\"a\":",
+      "kept": 25,
+      "vocab_size": 103,
+      "eos_legal": false,
+      "mask_with_replay": {
+        "samples_us": [
+          518.364,
+          509.764,
+          515.163,
+          509.404,
+          515.043,
+          531.924,
+          521.404
+        ],
+        "median_us": 515.163,
+        "min_us": 509.404,
+        "max_us": 531.924
+      }
+    },
+    {
+      "state": "number-zero",
+      "prefix": "0",
+      "kept": 6,
+      "vocab_size": 103,
+      "eos_legal": true,
+      "mask_with_replay": {
+        "samples_us": [
+          977.367,
+          951.566,
+          949.527,
+          949.126,
+          968.087,
+          948.807,
+          952.286
+        ],
+        "median_us": 951.566,
+        "min_us": 948.807,
+        "max_us": 977.367
+      }
+    },
+    {
+      "state": "string",
+      "prefix": "\"ab",
+      "kept": 101,
+      "vocab_size": 103,
+      "eos_legal": false,
+      "mask_with_replay": {
+        "samples_us": [
+          495.763,
+          491.163,
+          485.644,
+          488.803,
+          484.724,
+          489.843,
+          484.723
+        ],
+        "median_us": 488.803,
+        "min_us": 484.723,
+        "max_us": 495.763
+      }
+    },
+    {
+      "state": "key",
+      "prefix": "{\"a\":1,",
+      "kept": 6,
+      "vocab_size": 103,
+      "eos_legal": false,
+      "mask_with_replay": {
+        "samples_us": [
+          483.243,
+          521.364,
+          482.723,
+          487.804,
+          485.043,
+          486.803,
+          499.124
+        ],
+        "median_us": 486.803,
+        "min_us": 482.723,
+        "max_us": 521.364
+      }
+    },
+    {
+      "state": "done",
+      "prefix": "{}",
+      "kept": 3,
+      "vocab_size": 103,
+      "eos_legal": true,
+      "mask_with_replay": {
+        "samples_us": [
+          438.163,
+          442.843,
+          443.243,
+          439.003,
+          444.044,
+          457.523,
+          443.523
+        ],
+        "median_us": 443.243,
+        "min_us": 438.163,
+        "max_us": 457.523
+      }
+    }
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "char": "{",
+      "mode": "KEY",
+      "stack": [
+        "obj"
+      ]
+    },
+    {
+      "step": 2,
+      "char": "\"",
+      "mode": "STR",
+      "stack": [
+        "obj"
+      ]
+    },
+    {
+      "step": 3,
+      "char": "a",
+      "mode": "STR",
+      "stack": [
+        "obj"
+      ]
+    },
+    {
+      "step": 4,
+      "char": "\"",
+      "mode": "COLON",
+      "stack": [
+        "obj"
+      ]
+    },
+    {
+      "step": 5,
+      "char": ":",
+      "mode": "VALUE",
+      "stack": [
+        "obj"
+      ]
+    },
+    {
+      "step": 6,
+      "char": "[",
+      "mode": "VALUE",
+      "stack": [
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 7,
+      "char": "{",
+      "mode": "KEY",
+      "stack": [
+        "obj",
+        "arr",
+        "obj"
+      ]
+    },
+    {
+      "step": 8,
+      "char": "\"",
+      "mode": "STR",
+      "stack": [
+        "obj",
+        "arr",
+        "obj"
+      ]
+    },
+    {
+      "step": 9,
+      "char": "b",
+      "mode": "STR",
+      "stack": [
+        "obj",
+        "arr",
+        "obj"
+      ]
+    },
+    {
+      "step": 10,
+      "char": "\"",
+      "mode": "COLON",
+      "stack": [
+        "obj",
+        "arr",
+        "obj"
+      ]
+    },
+    {
+      "step": 11,
+      "char": ":",
+      "mode": "VALUE",
+      "stack": [
+        "obj",
+        "arr",
+        "obj"
+      ]
+    },
+    {
+      "step": 12,
+      "char": "[",
+      "mode": "VALUE",
+      "stack": [
+        "obj",
+        "arr",
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 13,
+      "char": "1",
+      "mode": "NUM",
+      "stack": [
+        "obj",
+        "arr",
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 14,
+      "char": ",",
+      "mode": "VALUE",
+      "stack": [
+        "obj",
+        "arr",
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 15,
+      "char": "2",
+      "mode": "NUM",
+      "stack": [
+        "obj",
+        "arr",
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 16,
+      "char": "]",
+      "mode": "SEP",
+      "stack": [
+        "obj",
+        "arr",
+        "obj"
+      ]
+    },
+    {
+      "step": 17,
+      "char": "}",
+      "mode": "SEP",
+      "stack": [
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 18,
+      "char": ",",
+      "mode": "VALUE",
+      "stack": [
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 19,
+      "char": "3",
+      "mode": "NUM",
+      "stack": [
+        "obj",
+        "arr"
+      ]
+    },
+    {
+      "step": 20,
+      "char": "]",
+      "mode": "SEP",
+      "stack": [
+        "obj"
+      ]
+    },
+    {
+      "step": 21,
+      "char": "}",
+      "mode": "DONE",
+      "stack": []
+    }
+  ],
+  "semantic_mask_integration": false
+}
+BENCHMARK_OK
